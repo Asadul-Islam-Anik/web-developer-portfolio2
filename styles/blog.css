@@ -3,9 +3,11 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
-nav h3{
-    margin-left: 50px;
+
+nav h3 {
+    /* margin-left: 50px; */
 }
 
 .text-primary {
@@ -16,6 +18,7 @@ body {
     font-family: "Open Sans", serif;
     font-optical-sizing: auto;
 }
+
 .nav-title {
     color: var(--Dark-01, #181818);
     /* font-family: "Open Sans"; */
@@ -24,23 +27,28 @@ body {
     font-weight: 800;
     /* linse-height: normal; */
 }
+
 nav ul {
     display: flex;
     list-style: none;
     align-items: center;
 }
+
 nav ul li {
     margin-right: 51px;
 }
+
 nav ul li a {
     color: var(--Dark-01, #181818);
     font-size: 18px;
     font-weight: 600;
     text-decoration: none;
 }
+
 nav ul li a:hover {
     color: var(--Primary-01, #FD6E0A);
 }
+
 .primary-btn {
     background-color: var(--Primary-01, #FD6E0A);
     border: none;
@@ -50,5 +58,59 @@ nav ul li a:hover {
     font-weight: 600;
     padding: 18px 35px;
     text-decoration: none;
-   
+
+}
+
+/* header related styles */
+header {
+    background-color: #FFF8F3;
+}
+
+.banner {
+    padding: 30px 30px 30px 200px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-greeting {
+    color: var(--Dark-02, #474747);
+    font-family: "Open Sans";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.banner-title {
+    color: var(--Dark-01, #181818);
+    font-family: "Open Sans";
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.banner-para{
+    color: var(--Dark-03, #757575);
+font-family: "Open Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+width: 585px;
+}
+.primary-btn2{
+    margin-left: 10px;
+    background-color:#FFF8F3;;
+    border: 2px solid orange;
+    border-radius: 5px;
+    color: #FD6E0A;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 18px 35px;
+    text-decoration: none;
+}
+.profile-picture{
+    margin-left: 50px;
+    width: 500px;
+    /* height: 500px; */
 }
