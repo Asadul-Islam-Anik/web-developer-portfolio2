@@ -294,6 +294,42 @@ main section {
     /* 175% */
     width: 511px;
 }
-.resume-column-title{
+
+.resume-column-title {
     margin-bottom: 30px;
+}
+
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 113px;
+}
+
+footer {
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.contact input,
+textarea {
+    display: block;
+    /* gap: 25px; */
+    margin-bottom: 25px;
+    padding: 18px 30px;
+    border-radius: 5px;
+    background: var(--White-Color, #FFF);
+    border: 0px;
+    color: var(--Dark-03, #757575);
+    width: 100%;
+
+}
+.social-links a{    
+    margin-right: 20px;
+
 }
