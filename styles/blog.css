@@ -67,9 +67,9 @@ nav ul li a:hover {
 /* background-image: url("../images/header_bg.png"); */
 /* background-position: center; */
 header {
-    background-image: url("../images/header_bg.png");
+    background-image: url("../images/header_bg.png"), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, bottom left;
 }
 
 .header {
